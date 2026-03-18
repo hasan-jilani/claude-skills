@@ -49,6 +49,18 @@ Converts a local markdown file to a PDF by chaining two steps: uploading to Goog
 
 ---
 
+### `site-analyzer`
+Crawls and screenshots any website for UX analysis using the Cloudflare Browser Rendering API. Works with JS-heavy SPAs that normal fetch can't render. Captures full-page screenshots, section-specific screenshots (scrolled to each h2), and rendered HTML/Markdown content.
+
+**Triggers:** "analyze this site", "screenshot this page", "crawl this URL", "UX analysis"
+
+**Usage:**
+> "Analyze the UX of https://deepgram.com"
+> "Screenshot this competitor's pricing page"
+> "Crawl this site and give me the rendered content"
+
+---
+
 ## Requirements
 
 - [Claude Code](https://claude.ai/claude-code) CLI installed
