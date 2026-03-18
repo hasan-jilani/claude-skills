@@ -4,6 +4,29 @@ Custom skills for [Claude Code](https://claude.ai/claude-code) that extend Claud
 
 ## Skills
 
+### `gdoc-to-md`
+Downloads a Google Doc as a local markdown file using the `gws` CLI.
+
+**Triggers:** "pull from Docs", "download as markdown", "export Google Doc", "gdoc to md", "save doc locally"
+
+**Usage:**
+> "Download this Google Doc as markdown: https://docs.google.com/document/d/ABC123/edit"
+> "Pull the latest version of this doc as a markdown file"
+
+---
+
+### `md-to-gdoc`
+Uploads a local markdown file to Google Drive as a formatted Google Doc, or updates an existing Google Doc with new markdown content.
+
+**Triggers:** "push to Drive", "create a Google Doc", "upload to Docs", "update the doc", "md to gdoc"
+
+**Usage:**
+> "Push report.md to Google Docs"
+> "Update this Google Doc with the latest version of my markdown file"
+> "Upload brand_guidelines.md to Drive and share it with the team"
+
+---
+
 ### `gdoc-to-pdf`
 Downloads a Google Doc as a PDF file using the `gws` CLI.
 
